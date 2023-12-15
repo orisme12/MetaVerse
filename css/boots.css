@@ -1,0 +1,397 @@
+*{
+    border: 0px solid red;
+    color: white;
+}
+.contendor{
+    position: relative;
+    
+}
+.toolbar, .section1 .sec-1, 
+.section2 .sec-2,.section3, .section4,
+.section5,.section8{
+    padding: 0px 24px;
+}
+
+body{
+    background-color: black;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+img{
+    max-width: 86%;
+}
+.container-fluid{
+    padding: 0;
+}
+.row{
+    width: 100%;
+}
+.cont-img{
+    padding: 0;
+}
+
+.contenedor div .icono1{
+    position: absolute;
+    z-index: -1;
+    width: 73%;
+    animation-name: flicker-in-1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.contenedor div .icono2{
+    position: absolute;
+    z-index: -1;
+    left: 59.4%;
+    top: -55%;
+    animation-name: flicker-in-1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.contenedor div .icono3{
+    position: absolute;
+    z-index: -1;
+    top: 10%;
+    animation-name: flicker-in-1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes flicker-in-1 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    10.1% {
+      opacity: 1;
+    }
+    10.2% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }
+    20.1% {
+      opacity: 1;
+    }
+    20.6% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 0;
+    }
+    30.1% {
+      opacity: 1;
+    }
+    30.5% {
+      opacity: 1;
+    }
+    30.6% {
+      opacity: 0;
+    }
+    45% {
+      opacity: 0;
+    }
+    45.1% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    55% {
+      opacity: 1;
+    }
+    55.1% {
+      opacity: 0;
+    }
+    57% {
+      opacity: 0;
+    }
+    57.1% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    60.1% {
+      opacity: 0;
+    }
+    65% {
+      opacity: 0;
+    }
+    65.1% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    75.1% {
+      opacity: 0;
+    }
+    77% {
+      opacity: 0;
+    }
+    77.1% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 1;
+    }
+    85.1% {
+      opacity: 0;
+    }
+    86% {
+      opacity: 0;
+    }
+    86.1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.contenedor .fondo .fa-bars{
+    display: none;
+}
+.contenedor .fondo .toolbar .logotipo a{
+    font-size: 29px;
+    font-family: 'Orbitron', sans-serif;
+}
+.contenedor .toolbar  .barra ul{
+    display: flex;
+    gap: 30px;
+}
+.contenedor .toolbar  .barra ul li a{
+    border-bottom: 2px solid transparent;
+}
+.contenedor .toolbar .barra ul li a:hover{
+    border-bottom: 2px solid whitesmoke;
+}
+.section1 .cajon1 div h1{
+    font-family: 'Orbitron', sans-serif;
+}
+.section1 .cajon1 div h1 span{
+    font-size: 40px;
+    background: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+
+}
+.section1 .cajon1 .exploremeta p{
+    font-size: 21px;
+    
+}
+
+.section1 .cajon1 .botones .boton1 a button{
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+.section1 .cajon1 .botones .boton2 a button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px 6px;
+}
+.section1 .cajon1 .seguidores .artworks p span,
+.section1 .cajon1 .seguidores .artists p span,
+.section1 .cajon1 .seguidores .auction p span{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+.section1 .cajon2 div .img2{
+    display: none;
+}
+.section1 .cajon2 div .rectan,
+.section1 .cajon2 .artworks-1,
+.section1 .cajon2 .artists-1,
+.section1 .cajon2 .auction-1{
+    display: none;
+}
+.section2 .sec-2 .cajon2 h2 span{
+    background: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+.section2 .sec-2 .cajon2 a button{
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.section3 div h2 {
+    font-family: 'Orbitron', sans-serif;
+}
+.section3 div h2 span{
+    background: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+.section3 div p{
+    font-size: 20px;
+}
+.section4{
+    display: flex;
+    gap: 57px;
+    justify-content: center;
+}
+.section4 .caja1,
+.section4 .caja2,
+.section4 .caja3 {
+    background-color: #090823;
+    border-radius: 0px 35px 0px 35px;
+    width: 30%;
+    padding: 0px 0px 2% 3%;
+}
+.section4 .caja1 img,
+.section4 .caja2 img,
+.section4 .caja3 img{
+    text-align: center;
+    margin-top: 15px;
+}
+.section4 .caja1 h2,
+.section4 .caja2 h2,
+.section4 .caja3 h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    margin-top: 14px;
+}
+.section4 .caja1 p,
+.section4 .caja2 p,
+.section4 .caja3 p{
+    font-size: 13px;
+}
+.section4 .caja1 .boton1,
+.section4 .caja2 .boton1,
+.section4 .caja3 .boton1 {
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.section4 .caja1 .boton2,
+.section4 .caja2 .boton2,
+.section4 .caja3 .boton2{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 4px 6px;
+    background-color: transparent;
+}
+
+
+.section5{
+    display: flex;
+    gap: 57px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.section5 .caja1,
+.section5 .caja2,
+.section5 .caja3 {
+    background-color: #090823;
+    border-radius: 0px 35px 0px 35px;
+    width: 30%;
+    padding: 0px 0px 2% 3%;
+}
+.section5 .caja1 img,
+.section5 .caja2 img,
+.section5 .caja3 img{
+    text-align: center;
+    margin-top: 20px;
+}
+.section5 .caja1 h2,
+.section5 .caja2 h2,
+.section5 .caja3 h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    margin-top: 14px;
+}
+.section5 .caja1 p,
+.section5 .caja2 p,
+.section5 .caja3 p{
+    font-size: 13px;
+}
+.section5 .caja1 .boton1,
+.section5 .caja2 .boton1,
+.section5 .caja3 .boton1 {
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.section5 .caja1 .boton2,
+.section5 .caja2 .boton2,
+.section5 .caja3 .boton2{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: transparent;
+}
+.section6 div h2 {
+    font-family: 'Orbitron', sans-serif;
+}
+.section6 div h2 span{
+    background: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+.section6 div p{
+  font-size: 20px;
+}
+.section7 {
+  padding-bottom: 50px;
+  
+}
+.section7 div{
+  display: flex;
+  gap: 20px;
+  overflow-x:scroll;
+  
+}
+
+.section7 .imagen2{
+    position: relative;
+}
+.section7 div .sec-7-imagen{
+  display: none;
+}
+.section7 .imagen2 img{
+    position: absolute;
+    top: 0;
+    left: 46%;
+    height: 566px;
+}
+.footer {
+    background-color: #090823;
+    margin-top: 40px;
+    padding-top: 48px;
+    width: 100%;
+}
+.footer .section8 div h2{
+    font-size: 48px;
+    background: linear-gradient(177deg, #F86CF8 12.04%, #64CEF5 81.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+.footer div ul li span{
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'Orbitron', sans-serif;
+}

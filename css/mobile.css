@@ -1,0 +1,367 @@
+@media only screen and (max-width: 767px) {
+    *{
+        border: 0px solid red;
+    }
+    .contenedor div .icono1{
+        width: 73%;
+    }
+    .contenedor div .icono2{
+        position: absolute;
+        z-index: -1;
+        left: 13.4%;
+        top: 0%;
+    }
+    .contenedor div .icono3{
+        position: absolute;
+        z-index: -1;
+        top: 53%;
+        width: 50%;
+    }
+    .contenedor .toolbar{
+        position: relative;
+    }
+    .contenedor .fondo .toolbar .logotipo{
+        display: flex;
+        justify-content: inherit;
+    }
+    .contenedor .fondo .toolbar .logotipo a{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .contenedor .fondo .toolbar .barra {
+        display: none;
+        position: fixed;
+        top: -3%;
+        left: 0%;
+        background: black;
+        opacity: 0.9;
+        height: 100%;
+        z-index: 4;
+        animation-name: animacion1;
+        animation-duration: 1.5s;
+       
+        
+    }
+    .close-menu{
+        display: flex;
+    }
+    .contenedor .fondo .toolbar .barra ul li a:hover{
+        color: #D10ED1;
+    }
+    @keyframes animacion1 {
+        from{transform: translateX(110%);}
+        to{transform: translateX(0%);}
+        
+    }
+    .contenedor .fondo .toolbar .barra ul{
+        flex-direction: column;
+        gap: 40px;
+        padding: 0px;
+        font-weight: bold;
+        margin-top: 40px;
+    }
+    .contenedor .fondo .toolbar .barra ul li a{
+        font-size: 20px;
+    }
+    .contenedor .fondo .toolbar .fa-bars{
+        display: block;
+        position: fixed;
+        left: 87%;
+        /* background: linear-gradient(97.16deg, #10A3DA 12.04%, #D10ED1 81.84%); */
+        text-align: center;
+        align-items: center;
+        z-index: 5;
+        top: 1%;
+        color: aqua;
+    }
+    .section1{
+        margin-top: 33px;
+    }
+    .section1 .cajon2 div .img3{
+        display: none !important;
+    }
+    .section1 .cajon2 div .img2{
+        display: block;
+    }
+    .section1 .cajon1 {
+        order: 2;
+        position: relative;
+        z-index: 3;
+       
+    }
+    .section1 .cajon1 {
+        text-align: center;
+        position: relative;
+    }
+    .section1 .cajon1 .exploremeta p{
+        font-size: 20px;
+    }
+    .section1 .cajon1 .seguidores .artworks{
+        position: absolute;
+        top: -40%;
+        font-size: 15px;
+    }
+    .section1 .cajon1 .seguidores .artists{
+        position: absolute;
+        top: -65%;
+        left: 24%;
+    }
+    .section1 .cajon1 .seguidores .auction{
+        position: absolute;
+        top: -52%;
+        left: 73%;
+    }
+    .section1 .cajon1 .botones .boton1{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .section1 .cajon1 .botones .boton1 a button{
+        padding: 3px 10px;
+    }
+    .section1 .cajon1 .botones .boton2{
+        display: flex;
+        
+    }
+    .section1 .cajon1 .botones .boton2 a button{
+        padding: 3px 10px;
+    }
+    .section1 .cajon2{
+        position: relative;
+        margin-top: 30px;
+        z-index: 2;
+    }
+    .section1 .cajon2 .imagen{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .section1 .cajon2 .imagen .img2{
+        width: 80%;
+    }
+    .section1 .cajon2 div .rectan{
+        display: block;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+    }
+    .section1 .cajon1 .artworks,
+    .section1 .cajon1 .artists,
+    .section1 .cajon1 .auction{
+        display: none;
+        position: absolute;
+    }
+    .section1 .cajon2 .artworks-1,
+    .section1 .cajon2 .artists-1,
+    .section1 .cajon2 .auction-1{
+        display: block;
+        position: absolute;
+            
+    }
+    .section1 .cajon2 .artworks-1 p ,
+    .section1 .cajon2 .artists-1 p ,
+    .section1 .cajon2 .auction-1 p {
+        
+        font-size: 12px;
+        
+    }
+    .section1 .cajon2 .artworks-1 p span,
+    .section1 .cajon2 .artists-1 p span,
+    .section1 .cajon2 .auction-1 p span{
+        
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .section1 .cajon2 .artworks-1{
+        top: 26%;
+        right: 77%;
+    }
+    .section1 .cajon2 .artists-1{
+        top: -2%;
+        right: 55%;
+    }
+    .section1 .cajon2 .auction-1{
+        top: 15%;
+        right: 3%;
+    }
+    .section2 .cajon2{
+        text-align: center;
+    }
+    .section2 .sec-2 .cajon1 {
+        text-align: center;
+    }
+    .section2 .sec-2 .cajon1 img{
+        width: 80%;
+        
+    }
+    .section2 .sec-2 .cajon2{
+        margin-top: 30px;
+        padding: 0px 42px;
+    }
+    .section4 .caja1,
+    .section4 .caja2,
+    .section4 .caja3 {
+        width: 100%;
+        text-align: center;
+    
+    }
+    .section5 .caja1,
+    .section5 .caja2,
+    .section5 .caja3 {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .section6 div p{
+        font-size: 25px;
+    }
+    .section7 div .img11{
+        display: none !important;
+    }
+    .section7 div video{
+        width: 300px;
+    }
+    .footer .section8 .redes .contact{
+        display: none;
+    }
+    .footer .section8 .sec-8 {
+        text-align: center;
+    }
+}   
+
+
+/* Configuracion de pantallas 768 hasta 912 */
+
+@media only screen and (max-width: 912px) and (min-width:768px)  {
+    .contenedor div .icono1{
+        width: 73%;
+    }
+    .contenedor div .icono2{
+        position: absolute;
+        z-index: -1;
+        left: 35.4%;
+        top: 0%;
+    }
+    .contenedor div .icono3{
+        position: absolute;
+        z-index: -1;
+        top: 53%;
+        width: 50%;
+    }
+    .contenedor .toolbar .barra ul{
+        gap: 20px;
+    }
+    .section1 .sec-1 .cajon1 .exploremeta h1{
+        font-size: 33px;
+    }
+    .section1 .sec-1 .cajon1 .exploremeta h1 span{
+        font-size: 35px;
+    }
+    .section1 .sec-1 .cajon1 .botones .boton1 a button{
+        font-size: 15px;
+        padding: 0px 25px;
+    }
+    .section1 .sec-1 .cajon1 .botones .boton2 a button{
+        font-size: 15px;
+        padding: 11px 9px;
+    }
+    .section1 .cajon2{
+        display: flex;
+        align-items: center;
+    }
+    .section4{
+        padding: 0px 24px;
+    }
+    .section4 .caja1,
+    .section4 .caja2,
+    .section4 .caja3{
+        width: 28%;
+        padding-bottom: 3%;
+    }
+    .section4 .caja1 h2,
+    .section4 .caja2 h2,
+    .section4 .caja3 h2{
+        margin-left: 2%;
+        font-size: 15px;
+    }
+    .section4 .caja1 p,
+    .section4 .caja2 p,
+    .section4 .caja3 p{
+        margin-left: 3%;
+        
+    }
+    .section4 .caja1 a .boton1,
+    .section4 .caja2 a .boton1,
+    .section4 .caja3 a .boton1{
+        margin-left: 5%;
+    }
+    .section4 .caja1 a .boton2,
+    .section4 .caja2 a .boton2,
+    .section4 .caja3 a .boton2{
+        padding: 4px 4px;
+    }
+
+    .section5{
+        padding: 0px 24px;
+    }
+    .section5 .caja1,
+    .section5 .caja2,
+    .section5 .caja3{
+        width: 28%;
+        padding-bottom: 3%;
+    }
+    .section5 .caja1 h2,
+    .section5 .caja2 h2,
+    .section5 .caja3 h2{
+        margin-left: 2%;
+        font-size: 15px;
+    }
+    .section5 .caja1 p,
+    .section5 .caja2 p,
+    .section5 .caja3 p{
+        margin-left: 3%;
+        
+    }
+    .section5 .caja1 a .boton1,
+    .section5 .caja2 a .boton1,
+    .section5 .caja3 a .boton1{
+        margin-left: 1%;
+        padding: 6px;
+    }
+    .section5 .caja1 a .boton2,
+    .section5 .caja2 a .boton2,
+    .section5 .caja3 a .boton2{
+        padding: 4px 0px;
+    }
+
+    .section7 .imagen2 {
+        display: none;
+    }
+    .section7 div video{
+        width: 500px;
+    }
+    .contenedor .footer .section8{
+        margin-left: 2%;
+    }
+    .contenedor .footer .section8 .sec-8{
+        width: 33%;
+    }
+    .contenedor .footer .section8 .lista1,
+    .contenedor .footer .section8 .lista2{
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 912px){
+
+    .section1 .sec-1 .cajon1 .exploremeta h1 span{
+        font-size: 25px;
+    }
+    .section6 div h2{
+        font-size: 20px;
+    }
+    .section6 div p{
+        font-size: 15px;
+    }
+    .footer div ul li span{
+        font-size: 17px;
+    }
+}
